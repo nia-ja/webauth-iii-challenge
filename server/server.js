@@ -4,7 +4,7 @@ const middleWareConfig = require('./config/middleware')
 const { usersRouter, authRouter } = require('./api/routers');
 
 middleWareConfig(server);
-server.use(express.json());
+// server.use(express.json());
 
 
 // routers
