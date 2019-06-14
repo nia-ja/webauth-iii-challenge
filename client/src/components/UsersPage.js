@@ -22,7 +22,6 @@ class UsersPage extends React.Component {
     render() {
         return (
             <>
-                <h3>Users</h3>
                 <UsersList users={this.state.users} />
             </>
         )

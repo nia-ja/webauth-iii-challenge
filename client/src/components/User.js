@@ -3,7 +3,7 @@ import React from 'react';
 function User(props) {
     return (
       <div className="user-wrapper">
-        <p>Username: {props.user.username}</p>
+        <h4>Username: {props.user.username}</h4>
         <p>Department: {props.user.department}</p>
       </div>
     );
