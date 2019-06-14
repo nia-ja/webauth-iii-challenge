@@ -48,6 +48,3 @@ getUserByFilter({ username })
 // }
 
 module.exports = router;
-
-
-

@@ -1,7 +1,5 @@
-const users = require('./usersHelper')
-const auth = require('./authHelper')
+const users = require('./usersHelper');
 
 module.exports = {
-    ...users,
-    ...auth
+    ...users
 }

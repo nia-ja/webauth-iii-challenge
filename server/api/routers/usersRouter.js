@@ -1,9 +1,9 @@
 const { getUsers } = require('../helpers');
 const router = require('express').Router();
 
-// const restricted = require('../auth/restricted-middleware.js');
+const restricted = require('../../auth/restricted-middleware.js');
 
-router.get('/', async (req, res) => {
+router.get('/', restricted, async (req, res) => {
     try {
         const users = await getUsers()
         if (users) {
