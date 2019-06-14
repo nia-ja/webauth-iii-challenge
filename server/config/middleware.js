@@ -1,7 +1,7 @@
 const morgan = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
-// const db = require('../data/dbConfig');
+const db = require('../data/dbConfig');
 require('dotenv').config();
 // const session = require('express-session');
 // const knexSessionStore = require('connect-session-knex')(session);
